@@ -28,7 +28,7 @@ EVAL_RESULTS_DIR = REPO_ROOT / "src" / "patchcontext" / "eval" / "results"
 
 # --- cached resources (loaded once per process) -------------------------------
 
-@st.cache_resource(show_spinner="Loading FAISS index and metadata …")
+@st.cache_resource(show_spinner="Loading index and metadata …")
 def get_retriever():
     from patchcontext.retrieve.retriever import Retriever
 

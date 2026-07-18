@@ -97,7 +97,7 @@ class Settings(BaseSettings):
 
     @property
     def index_dir(self) -> Path:
-        """FAISS index + metadata parquet sidecar."""
+        """Embeddings, metadata parquet, and index artifacts."""
         return self.data_dir / "index"
 
 
