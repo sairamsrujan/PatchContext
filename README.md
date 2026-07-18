@@ -2,7 +2,7 @@
 
 [![python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![tests](https://img.shields.io/badge/tests-70%20passing-brightgreen.svg)](tests/)
+[![tests](https://github.com/sairamsrujan/PatchContext/actions/workflows/tests.yml/badge.svg)](https://github.com/sairamsrujan/PatchContext/actions/workflows/tests.yml)
 
 **Ask *why* FastAPI is designed the way it is — and get answers backed by the
 actual commits, pull requests, and issues where those decisions happened.**
