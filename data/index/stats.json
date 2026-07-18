@@ -1,0 +1,13 @@
+{
+  "chunks": 11944,
+  "dim": 1024,
+  "by_source_type": {
+    "pr": 7363,
+    "commit": 3936,
+    "issue": 645
+  },
+  "date_min": "2023-01-02",
+  "date_max": "2026-07-10",
+  "embedding_model": "Qwen/Qwen3-Embedding-0.6B",
+  "built_at": "2026-07-12T10:38:57+00:00"
+}
