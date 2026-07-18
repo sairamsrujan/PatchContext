@@ -1,4 +1,4 @@
-"""Phase 5 tests: citation linkification, claim flagging, eval-results loading."""
+"""UI helper tests: citation linkification, claim flagging, eval-results loading."""
 
 import json
 

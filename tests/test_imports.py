@@ -1,4 +1,4 @@
-"""Phase 0 smoke tests: every module must be importable."""
+"""Smoke tests: every module must be importable."""
 
 import importlib
 

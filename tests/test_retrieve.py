@@ -1,4 +1,4 @@
-"""Phase 3 tests: retriever loading, MMR diversification, reranker ordering.
+"""Retrieval tests: retriever loading, MMR diversification, reranker ordering.
 
 No model downloads: query embedding is monkeypatched and the cross-encoder is
 replaced with a keyword-overlap fake.

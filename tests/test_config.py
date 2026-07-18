@@ -1,4 +1,4 @@
-"""Phase 0 smoke tests: Settings loads without secrets and honors env overrides."""
+"""Settings smoke tests: loads without secrets and honors env overrides."""
 
 import pytest
 
@@ -46,7 +46,7 @@ def test_provider_agnostic_override(monkeypatch: pytest.MonkeyPatch) -> None:
 
 
 def test_named_key_aliases(monkeypatch: pytest.MonkeyPatch) -> None:
-    """NVIDIA_API_KEY / OPENROUTER_API_KEY work as aliases per the brief."""
+    """NVIDIA_API_KEY / OPENROUTER_API_KEY work as provider-named aliases."""
     monkeypatch.delenv("LLM_API_KEY", raising=False)
     monkeypatch.delenv("LLM_FALLBACK_API_KEY", raising=False)
     monkeypatch.setenv("NVIDIA_API_KEY", "nvapi-test")

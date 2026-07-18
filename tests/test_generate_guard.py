@@ -1,4 +1,4 @@
-"""Phase 4 tests: citation regex/validation, NLI plumbing, prompts, failover.
+"""Generation + guard tests: citation regex/validation, NLI plumbing, prompts, failover.
 
 Offline: the NLI model and OpenAI clients are replaced with fakes.
 """

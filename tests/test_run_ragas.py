@@ -1,4 +1,4 @@
-"""Phase 6 runner tests: benchmark loading, resumable batched answer collection."""
+"""Eval runner tests: benchmark loading, resumable batched answer collection."""
 
 import json
 

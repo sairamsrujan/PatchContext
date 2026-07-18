@@ -1,4 +1,4 @@
-"""Phase 2 tests: chunking rules, bot filtering, splitting, metadata. No models."""
+"""Chunker tests: chunking rules, bot filtering, splitting, metadata. No models."""
 
 import json
 from pathlib import Path

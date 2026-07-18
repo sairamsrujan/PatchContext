@@ -1,4 +1,4 @@
-# Pinned on Python 3.11 (Phase 0). Reproduce with:
+# Pinned on Python 3.11. Reproduce with:
 #   uv venv --python 3.11 .venv && uv pip install -r requirements.txt -e .
 httpx==0.28.1
 pydantic-settings==2.14.2

@@ -1,4 +1,4 @@
-"""Phase 1 tests: cache-skip, checkpointing, window edge, record trimming. No network."""
+"""Ingestion tests: cache-skip, checkpointing, window edge, record trimming. No network."""
 
 from collections.abc import Iterator
 from pathlib import Path
